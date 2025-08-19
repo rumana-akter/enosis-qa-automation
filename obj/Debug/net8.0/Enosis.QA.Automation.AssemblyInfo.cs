@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Enosis.QA.Automation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a1c8eb9a37abf9e7d1de220e504a28ef81c2e9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Enosis.QA.Automation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Enosis.QA.Automation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

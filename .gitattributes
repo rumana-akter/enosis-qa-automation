@@ -1,0 +1,50 @@
+# Force GitHub Linguist to detect repo as C#
+*.cs linguist-detectable=true
+*.csproj linguist-detectable=true
+*.sln linguist-detectable=true
+
+# Ignore JavaScript artifacts
+*.js linguist-detectable=false
+*.map linguist-detectable=false
+node_modules/* linguist-detectable=false
+.playwright/* linguist-detectable=false
+# Build & IDE
+bin/
+obj/
+.vs/
+.vscode/
+TestResults/
+*.user
+*.suo
+
+# Playwright artifacts
+.playwright/
+**/playwright/.cache/
+**/playwright-report/
+**/test-results/
+**/videos/
+**/video/
+**/traces/
+**/trace.zip
+**/trace/
+**/screenshots/
+
+# Node / JS junk
+node_modules/
+*.js.map
+package-lock.json
+yarn.lock
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Logs
+*.log
+logs/
+*.etl
+
+# OS junk
+.DS_Store
+Thumbs.db
